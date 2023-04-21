@@ -46,7 +46,7 @@ fi
 # Run the test directly in a docker container
 docker run \
   $tty_opts \
-  -u=gonano \
+  -u=gomicro \
   --name="ruby_test"\
   --privileged=true \
   --workdir=/test \
@@ -55,7 +55,7 @@ docker run \
   --volume=${engine_dir}/:/engine \
   --volume=/tmp/pkgsrc:/data/var/db/pkgin/cache \
   --rm \
-  nanobox/build \
+  mubox/build \
   /test/util/bats/bin/bats \
     /test/tests/${file} \
       2>&1 \
