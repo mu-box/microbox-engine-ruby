@@ -1,9 +1,9 @@
 # Ruby
 
-This is a Ruby engine used to launch Ruby apps on [Nanobox](http://nanobox.io). It installs all binaries to run a Ruby app.
+This is a Ruby engine used to launch Ruby apps on [Microbox](http://microbox.cloud). It installs all binaries to run a Ruby app.
 
 # Usage
-To use the Ruby engine, specify `ruby` as your engine in your [boxfile.yml](http://docs.nanobox.io/app-config/boxfile/).
+To use the Ruby engine, specify `ruby` as your engine in your [boxfile.yml](https://docs.microbox.cloud/app-config/boxfile/).
 
 ```yaml
 run.config:
@@ -17,7 +17,7 @@ When then engine builds and prepares the code, it runs the following:
 - `bundle clean`
 
 ## Configuration Options
-This engine exposes configuration options through the [boxfile.yml](http://docs.nanobox.io/app-config/boxfile/), a yaml config file used to provision and configure your app's infrastructure when using Nanobox.
+This engine exposes configuration options through the [boxfile.yml](https://docs.microbox.cloud/app-config/boxfile/), a yaml config file used to provision and configure your app's infrastructure when using Microbox.
 
 #### Overview of Basic Boxfile Configuration Options
 ```yaml
@@ -71,8 +71,8 @@ run.config:
 
 ---
 
-## Ruby on Nanobox
-For more information about using Ruby on Nanobox, view the [Ruby guides](http://guides.nanobox.io/ruby/).
+## Ruby on Microbox
+For more information about using Ruby on Microbox, view the [Ruby guides](https://guides.microbox.cloud/ruby/).
 
 ## Help & Support
-This is an engine provided by [Nanobox](http://nanobox.io). If you are running into an issue with the engine, feel free to [create a new issue on this project](https://github.com/nanobox-io/nanobox-engine-ruby/issues/new).
+This is an engine provided by [Microbox](http://microbox.cloud). If you are running into an issue with the engine, feel free to [create a new issue on this project](https://github.com/mu-box/microbox-engine-ruby/issues/new).
